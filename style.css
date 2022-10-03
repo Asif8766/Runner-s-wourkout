@@ -1,0 +1,109 @@
+*{
+    margin: auto;
+    padding: auto;
+    
+
+}
+
+header .container{
+    display: flex;
+    height: 50px;
+    font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+
+}
+.logo img{
+   
+    width: auto;
+}
+.f{
+    display: flex;
+}
+.f ul li {
+  
+    list-style: none;
+}
+.f a{
+    text-decoration: none;
+    list-style: none;
+
+}
+.run{
+    padding: 50px 100px 0px 100px;
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+.run p{
+    font-size: 30px;
+}
+.im{
+    display: inline-flex;
+}
+/* .bg{
+    width: auto;
+    
+    
+    
+    
+} */
+
+.bg:hover{
+    width: 350px;
+
+   
+}
+
+
+.top-left {
+    position: absolute;
+    top: 150px;
+    color: white;
+    
+  }
+ 
+   .im .arrow {
+    position: absolute;
+    top: 76px;
+    display: none;
+    left: 165px;
+    background-color: white;
+    border-radius: 100px;
+    
+  }
+  .A:hover .arrow{
+    
+    display: block;
+    position: absolute;
+    top: 76px;
+    
+    left: 200px;
+    background-color: white;
+    border-radius: 100px;
+    
+  }
+  .B:hover .arrow{
+    
+    display: block;
+    position: absolute;
+    top: 76px;
+    
+    left: 350px;
+    background-color: white;
+    border-radius: 100px;
+    
+  }
+  .sB:hover .arrow{
+    
+    display: block;
+    position: absolute;
+    top: 76px;
+    
+    left: 500px;
+    background-color: white;
+    border-radius: 100px;
+    
+  }
+ 
+ 
+  
